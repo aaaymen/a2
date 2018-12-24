@@ -47,7 +47,7 @@ client.on('message', message => {
 
 client.on("ready", () => {
   console.log("Vulnix | Logged in! Server count: ${client.guilds.size}");
-  client.user.setGame(`|${prefix}bc |`);
+  client.user.setGame(`bot Verse|${prefix}bc |`);
 });
 
 client.login(process.env.BOT_TOKEN);
